@@ -1,0 +1,17 @@
+{
+  "name": "aws-lambda-typescript",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "git@github.com:darren-rose/aws-lambda-typescript.git",
+  "author": "darren-rose <darrenwrose@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "ncc" : "ncc build index.ts -o dist"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.56",
+    "@zeit/ncc": "^0.22.3"
+  },
+  "dependencies": {
+  }
+}
